@@ -13,6 +13,8 @@
 		CF8097ED25C0751D00718437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8097EB25C0751D00718437 /* Main.storyboard */; };
 		CF8097EF25C0751F00718437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8097EE25C0751F00718437 /* Assets.xcassets */; };
 		CF8097F225C0751F00718437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8097F025C0751F00718437 /* LaunchScreen.storyboard */; };
+		CF8097FD25C0793C00718437 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8097FC25C0793C00718437 /* RestaurantCell.swift */; };
+		CF80980125C084B800718437 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF80980025C084B800718437 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CF8097EE25C0751F00718437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF8097F125C0751F00718437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF8097F325C0751F00718437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8097FC25C0793C00718437 /* RestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		CF80980025C084B800718437 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		CF8097D925C0751D00718437 = {
 			isa = PBXGroup;
 			children = (
+				CF8097FB25C0791100718437 /* Table View Cells */,
 				CF8097E425C0751D00718437 /* restaurantSearchApp */,
 				CF8097E325C0751D00718437 /* Products */,
 			);
@@ -56,6 +61,7 @@
 		CF8097E425C0751D00718437 /* restaurantSearchApp */ = {
 			isa = PBXGroup;
 			children = (
+				CF80980025C084B800718437 /* DetailViewController.swift */,
 				CF8097E525C0751D00718437 /* AppDelegate.swift */,
 				CF8097E725C0751D00718437 /* SceneDelegate.swift */,
 				CF8097E925C0751D00718437 /* ViewController.swift */,
@@ -65,6 +71,14 @@
 				CF8097F325C0751F00718437 /* Info.plist */,
 			);
 			path = restaurantSearchApp;
+			sourceTree = "<group>";
+		};
+		CF8097FB25C0791100718437 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CF8097FC25C0793C00718437 /* RestaurantCell.swift */,
+			);
+			path = "Table View Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8097FD25C0793C00718437 /* RestaurantCell.swift in Sources */,
 				CF8097EA25C0751D00718437 /* ViewController.swift in Sources */,
+				CF80980125C084B800718437 /* DetailViewController.swift in Sources */,
 				CF8097E625C0751D00718437 /* AppDelegate.swift in Sources */,
 				CF8097E825C0751D00718437 /* SceneDelegate.swift in Sources */,
 			);
